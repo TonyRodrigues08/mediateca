@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,33 +9,33 @@
 </head>
 <body>
     <div class="cadastro">
-        <img src="../image/logob.png" alt="" width="100px" class="logo">
+        <a href="Login.html"><img src="../image/logob.png" alt="" width="100px" class="logo"></a>
         <div class="input_grup">
-            <input type="text" alt="Nome de utilizador" placeholder="">
+            <input type="text" alt="Nome de utilizador" placeholder="" required>
             <label for="Nome" class="seunome">Digite seu nome</label>
         </div>
         <div class="input_grup" >
-            <input type="email" alt="email do utilizador" placeholder="">
+            <input type="email" alt="email do utilizador" placeholder="" required>
             <label for="Email" class="seuemail">Digite o seu email</label>
         </div>
         <div class="input_grup" >
-            <input type="text" alt="Numero de identificação" maxlength="14" placeholder="">
+            <input type="text" alt="Numero de identificação" maxlength="14" placeholder="" required>
             <label for="BI" class="seubi">Digite o numero do BI</label>
         </div>
         <div class="input_grup" >
-            <input type="date" alt="Data de nascimento" placeholder="">
+            <input type="date" alt="Data de nascimento" placeholder="" required>
             <label for="Data" class="suadata">Digite a data de nascimento</label>
         </div>
         <div class="input_grup">
-            <input type="tel" alt="Numero do utilizador" maxlength="15" placeholder="">
+            <input type="tel" alt="Numero do utilizador" minlength="9" maxlength="15" placeholder="" required pattern="[0-9]{9}">
             <label for="Numero" class="seunumero">Digite o numero</label>
         </div>
         <div class="input_grup">
-            <input type="password" alt="Senha do utilizador" maxlength="16" placeholder="">
+            <input type="password" alt="Senha do utilizador" maxlength="16" placeholder="" required>
             <label for="Senha" class="suasenha">Digite a senha</label>
         </div>
         <div class="input_grup" >
-            <input type="password" alt="Confirmação da senha" maxlength="16" placeholder="">
+            <input type="password" alt="Confirmação da senha" maxlength="16" placeholder="" required>
             <label for="Senha_conf" class="suasenha_conf">Confirmar senha</label>
         </div>
         <button class="botao">Confirmar</button>
