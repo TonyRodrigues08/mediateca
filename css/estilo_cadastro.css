@@ -58,7 +58,7 @@ body{
 
 .seunome{
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -70,10 +70,9 @@ body{
 input:focus + .seunome,
 input:not(:placeholder-shown) + .seunome
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -81,7 +80,7 @@ input:not(:placeholder-shown) + .seunome
 } 
 .seuemail{
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -92,10 +91,9 @@ input:not(:placeholder-shown) + .seunome
 input:focus + .seuemail,
 input:not(:placeholder-shown) + .seuemail
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -103,7 +101,7 @@ input:not(:placeholder-shown) + .seuemail
 } 
 .seubi{
    position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -114,10 +112,9 @@ input:not(:placeholder-shown) + .seuemail
 input:focus + .seubi,
 input:not(:placeholder-shown) + .seubi
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -125,7 +122,7 @@ input:not(:placeholder-shown) + .seubi
 } 
 .suadata{
    position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -136,10 +133,9 @@ input:not(:placeholder-shown) + .seubi
 input:focus + .suadata,
 input:not(:placeholder-shown) + .suadata
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -147,7 +143,7 @@ input:not(:placeholder-shown) + .suadata
 } 
 .seunumero{
    position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -158,10 +154,9 @@ input:not(:placeholder-shown) + .suadata
 input:focus + .seunumero,
 input:not(:placeholder-shown) + .seunumero
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -169,7 +164,7 @@ input:not(:placeholder-shown) + .seunumero
 } 
 .suasenha{
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -180,10 +175,9 @@ input:not(:placeholder-shown) + .seunumero
 input:focus + .suasenha,
 input:not(:placeholder-shown) + .suasenha
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
@@ -191,7 +185,7 @@ input:not(:placeholder-shown) + .suasenha
 } 
 .suasenha_conf{
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -202,18 +196,17 @@ input:not(:placeholder-shown) + .suasenha
 input:focus + .suasenha_conf,
 input:not(:placeholder-shown) + .suasenha_conf
  {
-  top: 3%;
-  left: 4%;
+  top: 15%;
+  left: 3%;
   color: var(--cor5);
-  background-color: var(--cor1);
   padding: 0 5px;
   border-radius: 5px;
   transform: translateY(-50%);
   font-size: 12px;
 } 
 .botao{
-    color: var(--cor5);
-    background-color: var(--cor1);
+    color: var(--cor1);
+    background-color: var(--cor4);
     border-radius: 20px;
     border: none;
     width: 200px;
