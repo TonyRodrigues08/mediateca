@@ -10,35 +10,37 @@
 <body>
     <div class="cadastro">
         <a href="Login.html"><img src="../image/logob.png" alt="" width="100px" class="logo"></a>
-        <div class="input_grup">
-            <input type="text" alt="Nome de utilizador" placeholder="" required>
-            <label for="Nome" class="seunome">Digite seu nome</label>
-        </div>
-        <div class="input_grup" >
-            <input type="email" alt="email do utilizador" placeholder="" required>
-            <label for="Email" class="seuemail">Digite o seu email</label>
-        </div>
-        <div class="input_grup" >
-            <input type="text" alt="Numero de identificação" maxlength="14" placeholder="" required>
-            <label for="BI" class="seubi">Digite o numero do BI</label>
-        </div>
-        <div class="input_grup" >
-            <input type="date" alt="Data de nascimento" placeholder="" required>
-            <label for="Data" class="suadata">Digite a data de nascimento</label>
-        </div>
-        <div class="input_grup">
-            <input type="tel" alt="Numero do utilizador" minlength="9" maxlength="15" placeholder="" required pattern="[0-9]{9}">
-            <label for="Numero" class="seunumero">Digite o numero</label>
-        </div>
-        <div class="input_grup">
-            <input type="password" alt="Senha do utilizador" maxlength="16" placeholder="" required>
-            <label for="Senha" class="suasenha">Digite a senha</label>
-        </div>
-        <div class="input_grup" >
-            <input type="password" alt="Confirmação da senha" maxlength="16" placeholder="" required>
-            <label for="Senha_conf" class="suasenha_conf">Confirmar senha</label>
-        </div>
-        <button class="botao">Confirmar</button>
+        <form action="">
+            <div class="input_grup">
+                <input type="text" id="Nome" name="Nome" placeholder=" " autocomplete="username" required>
+                <label for="Nome" class="seunome">Digite seu nome</label>
+            </div>
+            <div class="input_grup" >
+                <input type="email" id="Email" name="email" placeholder=" " autocomplete="email" required>
+                <label for="Email" class="seunome">Digite o seu email</label>
+            </div>
+            <div class="input_grup" >
+                <input type="text" id="BI" name="BI" maxlength="14" placeholder=" " autocomplete="off" required>
+                <label for="BI" class="seunome">Digite o numero do BI</label>
+            </div>
+            <div class="input_grup" >
+                <input type="date" id="Data" name="data" placeholder=" " autocomplete="bday" required>
+                <label for="Data" class="seunome">Digite a data de nascimento</label>
+            </div>
+            <div class="input_grup">
+                <input type="tel" id="Numero" name="telef" minlength="9" maxlength="15" autocomplete="tel-national" placeholder=" " required pattern="[0-9]{9}">
+                <label for="Numero" class="seunome">Digite o numero</label>
+            </div>
+            <div class="input_grup">
+                <input type="password" id="Senha" name="senha" maxlength="16" autocomplete="current-password" placeholder=" " required>
+                <label for="Senha" class="seunome">Digite a senha</label>
+            </div>
+            <div class="input_grup" >
+                <input type="password" id="Senha_conf" name="senha_conf" autocomplete="current-password" maxlength="16" placeholder=" " required>
+                <label for="Senha_conf" class="seunome">Confirmar senha</label>
+            </div>
+            <button type="submit" class="botao">Confirmar</button>
+        </form>
     </div>
 </body>
 </html>

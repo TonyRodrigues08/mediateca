@@ -11,21 +11,21 @@
 <!-- Esqueleto do login -->
     <div class="login">
         <img src="../image/logob.png" alt="" width="100px" class="logo">
-        <div class="input_grup">
+        <form action="">
+            <div class="input_grup">
+                <input type="text" id="nome" name="nome" placeholder=" " required autocomplete="username">
+                <label for="nome" class="seunome">Nome de utilizador</label>
+                <abbr title="Nome do utilizador"><img src="../image/perfil-de-usuario.png" alt="" width="20ppx" class="imaginput"></abbr>
+                <br>
+            </div>
+            <div class="input_grup">
+                <input type="password" id="senha" name="senha" placeholder=" " minlength="6" maxlength="16" required autocomplete="current-password">
+                <label for="senha" class="seunome">Senha do utilizador</label>
+                <abbr title="Mostrar senha"><img src="../image/olho (1).png" alt="Olho fechado" width="20px" id="mudar_senha"class="imag_input"></abbr>
             
-            <input type="text" id="nome" name="nome" placeholder=" ">
-            <label for="nome" class="seunome">Nome de utilizador</label>
-            <abbr title="Nome do utilizador"><img src="../image/perfil-de-usuario.png" alt="" width="20ppx" class="imaginput"></abbr>
-            
-            <br>
-        </div>
-        <div class="input_grup">
-            <input type="password" id="senha" name="senha" placeholder=" " min="6" max="16">
-            <label for="senha" class="suasenha">Senha do utilizador</label>
-            <abbr title="Mostrar senha"><img src="../image/olho (1).png" alt="Olho fechado" width="20px" id="mudar_senha"class="imag_input"></abbr>
-            
-        </div>
-        <button class="botao" id="botao">Enter</button>
+            </div>
+            <button type="submit" class="botao" id="botao">Enter</button>
+        </form>
         <a href="">Esqueces-te da palavra-passe?</a>
         <a href="Cadastro.html" class="cadalogo"> <button class="botaoCadastrar">Criar uma conta</button></a>
     </div>

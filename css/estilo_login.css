@@ -80,27 +80,6 @@ input:not(:placeholder-shown) + .seunome
   transform: translateY(-50%);
   font-size: 12px;
 }
-.suasenha{
-    position: absolute;
-    top: 30%;
-    left: 3%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    color: var(--cor5);
-}
-input:focus + .suasenha,
-input:not(:placeholder-shown) + .suasenha
- {
-  top: 15%;
-  left: 3%;
-  color: var(--cor5);
-  padding: 0 5px;
-  border-radius: 5px;
-  transform: translateY(-50%); 
-  font-size: 12px;
-}
 .input_grup img{
     position: absolute;
     bottom: 30%;
