@@ -93,13 +93,18 @@ input:not(:placeholder-shown) + .seunome
 .input_grup img:hover{
    transform: scale(1.1); 
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
 .botao{
+    align-self: center;
     color: var(--cor1);
     background-color: var(--cor4);
     border-radius: 20px;
     border: none;
     width: 200px;
-    height: 30px;
+    height: 40px;
     transition: all 0.3s ease;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
